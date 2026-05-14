@@ -1,0 +1,42 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+**/project.lock.json
+**/project.fragment.lock.json
+artifacts/
+
+# Test results / coverage
+**/TestResults/
+**/*.trx
+**/*.coverage
+**/*.coveragexml
+**/coverage*/
+
+# Logs
+*.log
+
+# dotnet tools
+.config/dotnet-tools.json
+
